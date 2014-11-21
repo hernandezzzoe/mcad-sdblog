@@ -1,0 +1,7 @@
+.css-module {
+  margin-bottom: 6em;
+  &> h2 {
+    font-family: monospace;
+    background-color: #eee;
+  }
+}
