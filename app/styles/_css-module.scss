@@ -2,6 +2,13 @@
   margin-bottom: 6em;
   &> h2 {
     font-family: monospace;
-    background-color: #eee;
+    background-color: $gray-lighter;
+  }
+  .sample-image {
+    display: block;
+    border: 1px solid $gray-lighter;
+  }
+  &> *:last-child {
+    border: 1px solid $gray-lighter;
   }
 }
