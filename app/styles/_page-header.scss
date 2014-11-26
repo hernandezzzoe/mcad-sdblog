@@ -1,0 +1,21 @@
+.page-header {
+  position: relative;
+  @include clearfix;
+  width: 100%;
+  margin-bottom: 3em;
+  .links {
+    width: 32em;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .utility {
+    float: left;
+  }
+  .logo {
+    float: right;
+  }
+  .main-nav {
+    float: right;
+  }
+}

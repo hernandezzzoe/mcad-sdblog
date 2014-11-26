@@ -9,6 +9,8 @@
 
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -19,142 +21,158 @@
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
+
         <script src="//use.typekit.net/vwg0sai.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <header class="page-header">
-        <h1><a href="#">Minneapolis College of Art and Design</a>
-            <span><a href="#">Sustainable Design Online Program</span></a></h1>
-    </header>
-    <aside class="links">
-        <ul>
-            <li><a href="#">Request a brochure</a></li>
-            <li><a href="#">mcad.edu/sustainable</a></li>
-            <li><a href="#">MCAD</a></li>
-        </ul>
-    </aside>
-    <nav class="nav">
-        <ul>
+      <header class="page-header">
+        <!--blog title-->
+        <h1 class="blog-title">
+          <span class="logo-mcad">Minneapolis College of Art and Design</span>
+          <span class="logo-sdo">Sustainable Design Online Program</span>
+        </h1>
+        <!--blog title-->
+
+        <!--main nav-->
+        <nav class="main-nav">
+          <ul>
             <li><a href="#">Students</a></li>
             <li><a href="#">Faculty</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Search</a></li>
-        </ul>
-    </nav>
-    <article>
-        <p>Natural Leadership</p>
-        <p>July 9, 2014</p>
-        <h2><a href="#">Sustainability Bucket List</a></h2>
-        <img src="images/bucket.jpg" alt="Sustainability Bucket List">
-    </article>
-    <article>
-        <p>Eco-careers</p>
-        <p>Feb 26, 2014</p>
-        <h2><a href="#">Visual Communications for Sustainability</a></h2>
-        <img src="images/visual.jpg" alt="Visual Communications for Sustainability">
-    </article>
-    <article>
-        <p>Innovation & Entrepreneurship</p>
-        <p>Nov 13, 2013</p>
-        <h2><a href="#">Designers Emerge as Entrepreneurs</a></h2>
-        <img src="images/sketch.png" alt="Designers Emerge as Entrepreneurs">
-    </article>
-    <article>
-        <p>Biomimicry</p>
-        <p>Feb 20, 2014</p>
-        <h2><a href="#">Design Rules for Sustainability</a></h2>
-        <img src="images/bucky.jpg" alt="Design Rules for Sustainability">
-    </article>
-    <article>
-        <p>Green Graphic & Packaging Design</p>
-        <p>Feb 10, 2014</p>
-        <h2><a href="#">Background Stories</a></h2>
-        <img src="images/coffee.jpg" alt="Background Stories">
-    </article>
-    <article>
-        <p>Innovation & Entrepreneurship</p>
-        <p>Jan 30, 2014</p>
-        <h2><a href="#">Green Redesigns by Virtual Teams at MCAD</a></h2>
-        <img src="images/green.jpg" alt="Green Redesigns by Virtual Teams at MCAD">
-    </article>
-    <article>
-        <p>About the MA Program</p>
-        <p>Jan 15, 2014</p>
-        <h2><a href="#">Educating Global Change Agents</a></h2>
-        <img src="images/agents.jpg" alt="Educating Global Change Agents">
-    </article>
-    <article>
-        <p>About the MA Program</p>
-        <p>Dec 19, 2013</p>
-        <h2><a href="#">Happy Holidays!</a></h2>
-        <img src="images/holidays.jpg" alt="Happy Holidays!">
-    </article>
-    <article>
-        <p>Natural Leadership</p>
-        <p>Oct 20, 2013</p>
-        <h2><a href="#">The Time to Reap</a></h2>
-        <img src="images/ball.jpg" alt="The Time to Reap">
-    </article>
-    <article>
-        <p>Innovation & Entrepreneurship</p>
-        <p>Aug 15, 2013</p>
-        <h2><a href="#">The Nike Making App: Pushing the Fashion Industry Forward</a></h2>
-        <img src="images/nike.jpg" alt="The Nike Making App: Pushing the Fashion Industry Forward">
-    </article>
-    <article>
-        <p>Natural Leadership</p>
-        <p>Sep 17, 2013</p>
-        <h2><a href="#">Becoming a Creative Leader</a></h2>
-        <img src="images/leader.jpg" alt="Becoming a Creative Leader">
-    </article>
-    <article>
-        <p>Green Biz</p>
-        <p>Aug 27, 2013</p>
-        <h2><a href="#">Sustainability in Design and Marketing Boot Camp</a></h2>
-        <img src="images/leaf.jpg" alt="Sustainability in Design and Marketing Boot Camp">
-    </article>
-    <footer class="page-footer">
-        <p>Minneapolis College of Art and Design c 2014</p>
-    </footer>
+          </ul>
+        </nav>
+        <!--main nav-->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+        <!--utility nav-->
+        <aside class="links">
+          <ul class="utility">
+            <li><a href="#">Request a <br>brochure</a><img src="images/book.png" alt="Request a brochure"></li>
+            <li><a href="#">mcad.edu/ sustainable</a></li>
+          </ul>
+          <a href="#"><img class="logo" src="images/logo.png" alt="MCAD"></a>
+        </aside>
+        <!--utility nav-->
+      </div>
+    </header>
+        <!--article block-->
+        <div class="container">
+          <article class="article-block category-blue block-small">
+            <p><span class="subject">Natural Leadership</span></p>
+            <p><span class="date">July 9, 2014</span></p>
+            <h2><a href="#">Sustainability Bucket List</a></h2>
+            <img src="images/bucket.jpg" alt="Sustainability Bucket List">
+          </article>
+          <article class="article-block category-yellow block-large">
+            <p><span class="subject">Eco-careers</span></p>
+            <p><span class="date">Feb 26, 2014</span></p>
+            <h2><a href="#">Visual Communications for Sustainability</a></h2>
+            <img src="images/visual.jpg" alt="Visual Communications for Sustainability">
+          </article>
+          <article class="article-block category-green block-medium">
+            <p><span class="subject">Innovation & Entrepreneurship</span></p>
+            <p><span class="date">Nov 13, 2013</span></p>
+            <h2><a href="#">Designers Emerge as Entrepreneurs</a></h2>
+            <img src="images/sketch.png" alt="Designers Emerge as Entrepreneurs">
+          </article>
+          <article class="article-block category-pink block-medium">
+            <p><span class="subject">Biomimicry</span></p>
+            <p><span class="date">Feb 20, 2014</span></p>
+            <h2><a href="#">Design Rules for Sustainability</a></h2>
+            <img src="images/bucky.jpg" alt="Design Rules for Sustainability">
+          </article>
+          <article class="article-block category-red block-large">
+            <p><span class="subject">Green Graphic & Packaging Design</span></p>
+            <p><span class="date">Feb 10, 2014</span></p>
+            <h2><a href="#">Background Stories</a></h2>
+            <img src="images/coffee.jpg" alt="Background Stories">
+          </article>
+          <article class="article-block category-green block-medium">
+            <p><span class="subject">Innovation & Entrepreneurship</span></p>
+            <p><span class="date">Jan 30, 2014</span></p>
+            <h2><a href="#">Green Redesigns by Virtual Teams at MCAD</a></h2>
+            <img src="images/green.jpg" alt="Green Redesigns by Virtual Teams at MCAD">
+          </article>
+          <article class="article-block category-green block-medium">
+            <p><span class="subject">Innovation & Entrepreneurship</span></p>
+            <p><span class="date">Aug 15, 2013</span></p>
+            <h2><a href="#">The Nike Making App: Pushing the Fashion Industry Forward</a></h2>
+            <img src="images/nike.jpg" alt="The Nike Making App: Pushing the Fashion Industry Forward">
+          </article>
+          <article class="article-block category-purple block-medium">
+            <p><span class="subject">About the MA Program</span></p>
+            <p><span class="date">Dec 19, 2013</span></p>
+            <h2><a href="#">Happy Holidays!</a></h2>
+            <img src="images/holidays.jpg" alt="Happy Holidays!">
+          </article>
+          <article class="article-block category-blue block-small">
+            <p><span class="subject">Natural Leadership</span></p>
+            <p><span class="date">Oct 20, 2013</span></p>
+            <h2><a href="#">The Time to Reap</a></h2>
+            <img src="images/ball.jpg" alt="The Time to Reap">
+          </article>
+          <article class="article-block category-purple block-medium">
+            <p><span class="subject">About the MA Program</span></p>
+            <p><span class="date">Jan 15, 2014</span></p>
+            <h2><a href="#">Educating Global Change Agents</a></h2>
+            <img src="images/agents.jpg" alt="Educating Global Change Agents">
+          </article>
+          <article class="article-block category-blue block-large">
+            <p><span class="subject">Natural Leadership</span></p>
+            <p><span class="date">Sep 17, 2013</span></p>
+            <h2><a href="#">Becoming a Creative Leader</a></h2>
+            <img src="images/leader.jpg" alt="Becoming a Creative Leader">
+          </article>
+          <article class="article-block category-red block-medium">
+            <p><span class="subject">Green Biz</span></p>
+            <p><span class="date">Aug 27, 2013</span></p>
+            <h2><a href="#">Sustainability in Design and Marketing Boot Camp</a></h2>
+            <img src="images/leaf.jpg" alt="Sustainability in Design and Marketing Boot Camp">
+          </article>
+        <!--article block-->
+
+        <!--page footer-->
+
+        <footer class="page-footer">
+          <p>Minneapolis College of Art and Design © 2014</p>
+          <ul class="social-media">
+            <li><i class="fa fa-facebook"></i><span class="visuallyhidden"><a href="#">facebook</a></span></li>
+            <li><i class="fa fa-twitter"></i><span class="visuallyhidden"><a href="#">twitter</a></span></li>
+            <li><i class="fa fa-pinterest"></i><span class="visuallyhidden"><a href="#">pinterest</a></span></li>
+            <li><i class="fa fa-linkedin"></i><span class="visuallyhidden"><a href="#">linkedin</a></span></li>
+          </ul>
+        </footer>
+        <!--page footer-->
+
+
+      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='//www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+        <script src="bower_components/eventie/eventie.js"></script>
+        <script src="bower_components/imagesloaded/imagesloaded.js"></script>
         <!-- endbower -->
+        <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+
         <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
-</body>
+      </body>
 </html>

@@ -1,0 +1,8 @@
+.page-footer {
+  @include clearfix;
+  margin-top: 30px;
+  margin-left: 0.5em;
+  p {
+    font-size: 0.8em;
+  }
+}
